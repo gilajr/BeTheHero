@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ec08eba-b58b-4c9f-9f04-535bb138a335" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ProjectId" id="1ZoYkXNozb7xmm7PoMDC8PnZ3pM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aulas/backend/src/database/db.sqlite" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585507640676">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="310" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-219.-1080.1280.689@0.0.1366.738" timestamp="1585507640676" />
+    <state x="498" y="180" key="FileChooserDialogImpl" timestamp="1585507322586">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="498" y="180" key="FileChooserDialogImpl/0.0.1366.738/-219.-1080.1280.689@0.0.1366.738" timestamp="1585507322586" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585507648577">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.738/-219.-1080.1280.689@0.0.1366.738" timestamp="1585507648577" />
+    <state x="413" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585508194266">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-219.-1080.1280.689@0.0.1366.738" timestamp="1585508194266" />
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1585507547697">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738/-219.-1080.1280.689@0.0.1366.738" timestamp="1585507547697" />
+  </component>
+</project>
