@@ -1,5 +1,6 @@
 //Recurso utilizado para criptografia. NEste projeto será utilizado para geração de uma string aleatória
-const crypto = require('crypto');
+//const crypto = require('crypto');
+const generateUniqueId = require('../utils/generateUniqueId');
 
 //Importando a conexão com o banco de dados para comunicação
 const connection = require('../database/connection');
@@ -26,7 +27,9 @@ module.exports = {
 
         // console.log(data);
         //Gerendo uma srting aleatória de 4 bytes, convertido para string de hexadecimal
-        const id = crypto.randomBytes(4).toString('HEX');
+        //const id = crypto.randomBytes(4).toString('HEX');
+
+        const id = generateUniqueId();
 
         //Inserção de dados na tabela "ongs" - await (aguardar para continuar)
         await connection('ongs').insert({  //INserir todas as colunas que se deseja que recebam dados

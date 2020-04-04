@@ -4,6 +4,9 @@ const express = require('express');
 //Importando o módulod e segurança cors
 const cors = require('cors');
 
+//importando o celebrate para validação de dados - evitar erros 500 na aplicação
+const {errors} = require('celebrate');
+
 //Importando as rotas
 const routes = require('./routes'); //Precisamos utilizar o "." na declaração do caminho para que se diferencie de pacotes - referencia a mesma pasta do arquivo
  
@@ -14,6 +17,7 @@ const app = express();
 app.use(cors()); //Permite que todas as aplicações acessem a aplicação - Durante o desenvolvimento
 app.use(express.json());
 app.use(routes); // è impotante que essa linha esteja sempre abaixo do app.use(express.json());
+app.use(errors()); 
 
 /** 
  * Rota / Recurso
@@ -126,7 +130,8 @@ app.use(routes); // è impotante que essa linha esteja sempre abaixo do app.use(
 
 
 // Mando a aplicação ouvir uma porta: (porta: 3333)
-app.listen(3333);
+//app.listen(3333);
+module.exports = app;
 
 
 /**

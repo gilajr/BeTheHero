@@ -15,8 +15,8 @@ exports.up = function(knex) {
   //npx knex migrate:latest
   
   //O Método Down é responsável por revrsões em casos de falha
-  return exports.down = function(knex) {
+  exports.down = function(knex) {
       //Deleta uma tebela criada
-      knex.schema.dropTable('ongs');
+      return knex.schema.dropTable('ongs');
   };
   

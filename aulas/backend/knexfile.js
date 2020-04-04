@@ -15,6 +15,18 @@ module.exports = {
     useNullAsDefault: true, //Corrige: sqlite does not support inserting default values. Set the `useNullAsDefault` flag to hide this warning. (see docs http://knexjs.org/#Builder-insert)
   },
 
+  test: {
+    client: 'sqlite3',
+    connection: {
+      filename: './src/database/test.sqlite'  //Declara o arquivo que servirá como base de banco de dados e seu caminho
+    },
+    //Criando nova configuração "migration"
+    migrations: {
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault: true, //Corrige: sqlite does not support inserting default values. Set the `useNullAsDefault` flag to hide this warning. (see docs http://knexjs.org/#Builder-insert)
+  },
+
   staging: {
     client: 'postgresql',
     connection: {
